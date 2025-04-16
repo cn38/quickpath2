@@ -1,0 +1,23 @@
+Package: quickpath2
+Title: Quick Pathway Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Carolyn",
+           family = "Nguyen",
+           role = c("aut", "cre"),
+           email = "carolyntn@tamu.edu")
+Description: A R package for quick pathway analysis. Updated to use with most recent R version.
+License: GPL (>= 3)
+Depends: R (>= 4.3.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    parallel,
+    ggplot2,
+    biomaRt,
+    xlsx
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
